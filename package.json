@@ -1,0 +1,18 @@
+{
+  "name": "s3-object-lambda-image-blur",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "zip -r dist/function.zip . -x ./dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1310.0",
+    "image-type": "^5.2.0",
+    "sharp": "^0.31.3"
+  }
+}
